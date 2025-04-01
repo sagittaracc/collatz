@@ -1,29 +1,20 @@
-const numbers = [8];
+const f1 = (n) => n / 2;
+const f2 = (n) => 3 * n + 1;
+const f = (n) => n % 2 === 0 ? f1(n) : f2(n);
 
-const f1 = (n) => n * 2;
-const f2 = (n) => (n - 1) / 3;
-
-const interval = setInterval(getNextNumber, 100);
-
-function unique(value, index, array) {
-    return array.indexOf(value) === index;
+while (f(number) !== 1) {
+    number = f(number);
 }
 
-function getNextNumber() {
-    const currNumber = numbers.at(-1)
-
-    numbers.push(
-        Number.isInteger(f2(currNumber))
-            ? f2(currNumber)
-            : f1(currNumber)
-    );
-
-    const len1 = numbers.length;
-    const len2 = numbers.filter(unique).length;
-
-    if (len1 !== len2) {
-        clearInterval(interval);
+function modExp(base, exp, mod) {
+    let result = 1;
+    base = base % mod;
+    while (exp > 0) {
+        if (exp % 2 === 1) {
+            result = (result * base) % mod;
+        }
+        exp = Math.floor(exp / 2);
+        base = (base * base) % mod;
     }
-
-    console.info(numbers.at(-1));
+    return result;
 }
