@@ -1,9 +1,17 @@
 const f1 = (n) => n / 2;
-const f2 = (n) => 3 * n + 1;
+const f2 = (n) => n + 1;
 const f = (n) => n % 2 === 0 ? f1(n) : f2(n);
 
-while (f(number) !== 1) {
-    number = f(number);
+for (let number = 1; number <= 1000000; number++) {
+    collatz(number);
+}
+
+function collatz(number) {
+    let iterations = 0;
+    while (number !== 1 && iterations < 1000) {
+        number = f(number);
+        iterations++;
+    }
 }
 
 function modExp(base, exp, mod) {
