@@ -62,15 +62,19 @@ We will refer to a mutation of the form 3 x (<sup>2</sup>S, h) + h as a Harut-mu
 
 <sup>2</sup>(H, …, h)<sub>N</sub> → (stabilization) 3 x <sup>2</sup>(H, …, h)<sub>N</sub> + (h) → <sup>2</sup>(H, …, h)<sub>N</sub> + <sup>2</sup>(H, …, h)<sub>N</sub> + <sup>2</sup>(H, …, h)<sub>N</sub> + (h) → <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N</sub> + (h, h, h, h) → <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N</sub> + (H, H) → (division) <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N/2</sub> + H → (H, …)<sub>N+N/2+1</sub>
 
-After stabilization and division, the Harut-system 2(H, …, h)N mutates into (H, …)N+N/2+1. Since the Harut-system initially had the 2-decomposable property, we cannot guarantee that the system still possesses this property. We are sure, though, that it is still stable.
+After stabilization and division, the Harut-system <sup>2</sup>(H, …, h)<sub>N</sub> mutates into (H, …)<sub>N+N/2+1</sub>.
+
+Since the Harut-system initially had the 2-decomposable property, we cannot guarantee that the system still possesses this property.
+
+We are sure, though, that it is still stable.
 
 Therefore, in accordance with the fundamental principles, the Harut-system must divide into two equal parts; however, after division, it may break down into two stable systems or two unstable ones.
 
-(H, …)N+N/2+1 → (H, …)(N+N/2+1)/2
+(H, …)<sub>N+N/2+1</sub> → (H, …)<sub>(N+N/2+1)/2</sub>
 
 Or
 
-(H, …)N+N/2+1 → (H, …, h)[(N+N/2+1)/2]
+(H, …)<sub>N+N/2+1</sub> → (H, …, h)<sub>[(N+N/2+1)/2]</sub>
 
 After all mutations, the dimension of the system will stably be [(N + N / 2 + 1) / 2] and, in the longest mutation scenario, will enter the life cycle of N → [(N + N / 2 + 1) / 2]
 
@@ -80,11 +84,11 @@ N = [(N + N / 2 + 1) / 2]
 
 Proof using the deviation from the fixed point method. The stationary point is L = 2.
 
-Let’s consider the difference Di = Ni – 2.
+Let’s consider the difference D<sub>i</sub> = N<sub>i</sub> – 2.
 
-Ni+1 – 2 = [(3Ni + 2) / 4] – 2 = [(3Ni + 2 – 8) / 4] = [(3Ni – 6) / 4] = [3(Ni – 2) / 4] = [3Di / 4]
+N<sub>i+1</sub> – 2 = [(3N<sub>i</sub> + 2) / 4] – 2 = [(3N<sub>i</sub> + 2 – 8) / 4] = [(3N<sub>i</sub> – 6) / 4] = [3(N<sub>i</sub> – 2) / 4] = [3D<sub>i</sub> / 4]
 
-Di+1 = [3Di / 4], Di > 0 => Di+1 < Di
+D<sub>i+1</sub> = [3D<sub>i</sub> / 4], D<sub>i</sub> > 0 => D<sub>i+1</sub> < D<sub>i</sub>
 
 # The Collatz Conjecture
 The Collatz Conjecture states that if you take any positive integer n and apply the following rules repeatedly, you will eventually reach the number 1.
