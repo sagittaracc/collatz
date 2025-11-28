@@ -22,9 +22,12 @@ Unstable Harut-system is a system in which there is one Harut-element. It is den
 # Fundamental principles
     1. A Harut-element tends to form a pair with another Harut-element.
     2. A stable Harut-system tends to split into two equal parts.
-Examples:
+*Examples*:
+
 (h, h) = (H)
+
 (H, H) = (H) (H)
+
 (H, H, H) = (H, H, h, h) = (H, h) (H, h)
 
 # Harut-system dimension
