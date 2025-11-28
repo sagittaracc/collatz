@@ -38,7 +38,8 @@ A mutation is any change in a Harut-system. By change, we mean that elements may
 
 Mutations may have a stabilizing or destabilizing effect on the system.
 
-Examples:
+*Examples*:
+
 (H, …, h)<sub>N</sub> + (h) = (H, ...)<sub>N</sub> + (h, h) = (H, ...)<sub>N</sub> + (H) = (H, ...)<sub>N+1</sub>
 
 3 x (H, …, h)<sub>N</sub> = (H, …, h)<sub>N</sub> + (H, …, h)<sub>N</sub> + (H, …, h)<sub>N</sub> = (H, ...)<sub>3N</sub> + (h, h) + (h) = (H, ...)<sub>3N</sub> + (H) + (h) = (H, …, h)<sub>3N+1</sub>
