@@ -104,9 +104,13 @@ D<sub>i+1</sub> = [3D<sub>i</sub> / 4], D<sub>i</sub> > 0 => D<sub>i+1</sub> < D
 
 # The Collatz Conjecture
 The Collatz Conjecture states that if you take any positive integer n and apply the following rules repeatedly, you will eventually reach the number 1.
+
 The rules are:
+
 If n is even, divide it by 2
+
 If n is odd, multiply it by 3 and add 1
+
 Let us draw an analogy between numbers and Harut-systems.
 
 # The Harutyunyan Conjecture
