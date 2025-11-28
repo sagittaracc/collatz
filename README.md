@@ -60,7 +60,19 @@ We will refer to a mutation of the form 3 x (<sup>2</sup>S, h) + h as a Harut-mu
 
 **Proof**: We will describe the chain of system stabilization and division in accordance with the fundamental principles of Harut-system lifecycle.
 
-<sup>2</sup>(H, …, h)<sub>N</sub> → (stabilization) 3 x <sup>2</sup>(H, …, h)<sub>N</sub> + (h) → <sup>2</sup>(H, …, h)<sub>N</sub> + <sup>2</sup>(H, …, h)<sub>N</sub> + <sup>2</sup>(H, …, h)<sub>N</sub> + (h) → <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N</sub> + (h, h, h, h) → <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N</sub> + (H, H) → (division) <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N/2</sub> + H → (H, …)<sub>N+N/2+1</sub>
+<sup>2</sup>(H, …, h)<sub>N</sub>
+
+→ (stabilization) 3 x <sup>2</sup>(H, …, h)<sub>N</sub> + (h)
+
+→ <sup>2</sup>(H, …, h)<sub>N</sub> + <sup>2</sup>(H, …, h)<sub>N</sub> + <sup>2</sup>(H, …, h)<sub>N</sub> + (h)
+
+→ <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N</sub> + (h, h, h, h)
+
+→ <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N</sub> + (H, H)
+
+→ (division) <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N/2</sub> + H
+
+→ (H, …)<sub>N+N/2+1</sub>
 
 After stabilization and division, the Harut-system <sup>2</sup>(H, …, h)<sub>N</sub> mutates into (H, …)<sub>N+N/2+1</sub>.
 
@@ -76,11 +88,11 @@ Or
 
 (H, …)<sub>N+N/2+1</sub> → (H, …, h)<sub>[(N+N/2+1)/2]</sub>
 
-After all mutations, the dimension of the system will stably be $\lfloor \frac{N + \frac{N}{2} + 1}{2} \rfloor$ and, in the longest mutation scenario, will enter the life cycle of N → $\lfloor \frac{N + \frac{N}{2} + 1}{2} \rfloor$
+After all mutations, the dimension of the system will stably be [(N+N/2+1)/2] and, in the longest mutation scenario, will enter the life cycle of N → [(N+N/2+1)/2]
 
 We will prove that the recursive function converges.
 
-$N = \lfloor \frac{N + \frac{N}{2} + 1}{2} \rfloor$
+N = [(N+N/2+1)/2]
 
 Proof using the deviation from the fixed point method. The stationary point is L = 2.
 
