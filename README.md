@@ -49,17 +49,18 @@ Mutations may have a stabilizing or destabilizing effect on the system.
 # Decomposability
 Decomposability is the property of a stable Harut-system to be divided into an equal number of smaller systems without breaking its stability.
 
-This property is denoted as m(H, ...)N, where m indicates the number of equal parts into which the system can be decomposed while preserving stability.
+This property is denoted as m(H, ...)<sub>N</sub>, where m indicates the number of equal parts into which the system can be decomposed while preserving stability.
 
-Any decomposable stable Harut-system is denoted by the letter S (e.g. 2S – 2-decomposable stable Harut-system)
+Any decomposable stable Harut-system is denoted by the letter S (e.g. <sup>2</sup>S – 2-decomposable stable Harut-system)
 
 # Harut-mutation
-We will refer to a mutation of the form 3 x (2S, h) + h as a Harut-mutation.
+We will refer to a mutation of the form 3 x (<sup>2</sup>S, h) + h as a Harut-mutation.
 
 **Theorem**: The Harut-mutation is stabilizing; however, if applied recursively to a Harut-system requiring stabilization, the system degenerates.
 
 **Proof**: We will describe the chain of system stabilization and division in accordance with the fundamental principles of Harut-system lifecycle.
-2(H, …, h)N → (stabilization) 3 x 2(H, …, h)N + (h) → 2(H, …, h)N + 2(H, …, h)N + 2(H, …, h)N + (h) → 2(H, …)N + 2(H, …)N + 2(H, …)N + (h, h, h, h) → 2(H, …)N + 2(H, …)N + 2(H, …)N + (H, H) → (division) 2(H, …)N + 2(H, …)N/2 + H → (H, …)N+N/2+1
+
+<sup>2</sup>(H, …, h)<sub>N</sub> → (stabilization) 3 x <sup>2</sup>(H, …, h)<sub>N</sub> + (h) → <sup>2</sup>(H, …, h)<sub>N</sub> + <sup>2</sup>(H, …, h)<sub>N</sub> + <sup>2</sup>(H, …, h)<sub>N</sub> + (h) → <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N</sub> + (h, h, h, h) → <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N</sub> + (H, H) → (division) <sup>2</sup>(H, …)<sub>N</sub> + <sup>2</sup>(H, …)<sub>N/2</sub> + H → (H, …)<sub>N+N/2+1</sub>
 
 After stabilization and division, the Harut-system 2(H, …, h)N mutates into (H, …)N+N/2+1. Since the Harut-system initially had the 2-decomposable property, we cannot guarantee that the system still possesses this property. We are sure, though, that it is still stable.
 
