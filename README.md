@@ -76,11 +76,11 @@ Or
 
 (H, …)<sub>N+N/2+1</sub> → (H, …, h)<sub>[(N+N/2+1)/2]</sub>
 
-After all mutations, the dimension of the system will stably be [(N + N / 2 + 1) / 2] and, in the longest mutation scenario, will enter the life cycle of N → [(N + N / 2 + 1) / 2]
+After all mutations, the dimension of the system will stably be $\lfloor \frac{N + \frac{N}{2} + 1}{2} \rfloor$ and, in the longest mutation scenario, will enter the life cycle of N → $\lfloor \frac{N + \frac{N}{2} + 1}{2} \rfloor$
 
 We will prove that the recursive function converges.
 
-N = [(N + N / 2 + 1) / 2]
+$N = \lfloor \frac{N + \frac{N}{2} + 1}{2} \rfloor$
 
 Proof using the deviation from the fixed point method. The stationary point is L = 2.
 
