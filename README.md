@@ -28,7 +28,7 @@ Examples:
 (H, H, H) = (H, H, h, h) = (H, h) (H, h)
 
 # Harut-system dimension
-It is the number of Harut-couples in the system. It is denoted as (H, ...)N, where N represents the dimension of the system.
+It is the number of Harut-couples in the system. It is denoted as (H, ...)<sub>N</sub>, where N represents the dimension of the system.
 
 # Mutation
 A mutation is any change in a Harut-system. By change, we mean that elements may be added to or removed from the system. The system may also be divided into equal parts, or parts may be repeated.
@@ -36,9 +36,11 @@ A mutation is any change in a Harut-system. By change, we mean that elements may
 Mutations may have a stabilizing or destabilizing effect on the system.
 
 Examples:
-(H, …, h)N + (h) = (H, ...)N + (h, h) = (H, ...)N + (H) = (H, ...)N+1
-3 x (H, …, h)N = (H, …, h)N + (H, …, h)N + (H, …, h)N = (H, ...)3N + (h, h) + (h) = (H, ...)3N + (H) + (h) = (H, …, h)3N+1
-3 x (H, …, h)N + (h) = (H, …, h)3N+1 + (h) = (H, ...)3N+1 + (h, h) = (H, ...)3N+2
+(H, …, h)<sub>N</sub> + (h) = (H, ...)<sub>N</sub> + (h, h) = (H, ...)<sub>N</sub> + (H) = (H, ...)<sub>N+1</sub>
+
+3 x (H, …, h)<sub>N</sub> = (H, …, h)<sub>N</sub> + (H, …, h)<sub>N</sub> + (H, …, h)<sub>N</sub> = (H, ...)<sub>3N</sub> + (h, h) + (h) = (H, ...)<sub>3N</sub> + (H) + (h) = (H, …, h)<sub>3N+1</sub>
+
+3 x (H, …, h)<sub>N</sub> + (h) = (H, …, h)<sub>3N+1</sub> + (h) = (H, ...)<sub>3N+1</sub> + (h, h) = (H, ...)<sub>3N+2</sub>
 
 # Decomposability
 Decomposability is the property of a stable Harut-system to be divided into an equal number of smaller systems without breaking its stability.
