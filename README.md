@@ -98,7 +98,7 @@ Proof using the deviation from the fixed point method. The stationary point is L
 
 Let’s consider the difference D<sub>i</sub> = N<sub>i</sub> – 2.
 
-N<sub>i+1</sub> – 2 = [(3N<sub>i</sub> + 2) / 4] – 2 = [(3N<sub>i</sub> + 2 – 8) / 4] = [(3N<sub>i</sub> – 6) / 4] = [3(N<sub>i</sub> – 2) / 4] = [3D<sub>i</sub> / 4]
+N<sub>i+1</sub> – 2 = ⌊(3N<sub>i</sub> + 2) / 4⌋ – 2 = [(3N<sub>i</sub> + 2 – 8) / 4] = [(3N<sub>i</sub> – 6) / 4] = [3(N<sub>i</sub> – 2) / 4] = [3D<sub>i</sub> / 4]
 
 D<sub>i+1</sub> = [3D<sub>i</sub> / 4], D<sub>i</sub> > 0 => D<sub>i+1</sub> < D<sub>i</sub>
 
