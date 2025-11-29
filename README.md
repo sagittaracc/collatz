@@ -49,7 +49,7 @@ Mutations may have a stabilizing or destabilizing effect on the system.
 # Decomposability
 Decomposability is the property of a stable Harut-system to be divided into an equal number of smaller systems without breaking its stability.
 
-This property is denoted as m(H, ...)<sub>N</sub>, where m indicates the number of equal parts into which the system can be decomposed while preserving stability.
+This property is denoted as <sup>m</sup>(H, ...)<sub>N</sub>, where m indicates the number of equal parts into which the system can be decomposed while preserving stability.
 
 Any decomposable stable Harut-system is denoted by the letter S (e.g. <sup>2</sup>S – 2-decomposable stable Harut-system)
 
