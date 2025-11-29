@@ -86,7 +86,7 @@ Therefore, in accordance with the fundamental principles, the Harut-system must 
 
 Or
 
-(H, …)<sub>N+N/2+1</sub> → (H, …, h)<sub>⌊(N+<sup>N</sub>/<sub>2</sub>+1)/2⌋</sub>
+(H, …)<sub>N+N/2+1</sub> → (H, …, h)<sub>⌊(N+N/2+1)/2⌋</sub>
 
 After all mutations, the dimension of the system will stably be ⌊(N+<sup>N</sup>/<sub>2</sub>+1)/2⌋ and, in the longest mutation scenario, will enter the life cycle of N → ⌊(N+<sup>N</sup>/<sub>2</sub>+1)/2⌋
 
