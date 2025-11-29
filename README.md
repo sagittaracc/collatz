@@ -86,21 +86,21 @@ Therefore, in accordance with the fundamental principles, the Harut-system must 
 
 Or
 
-(H, …)<sub>N+N/2+1</sub> → (H, …, h)<sub>[(N+<sup>N</sub>/<sub>2</sub>+1)/2]</sub>
+(H, …)<sub>N+N/2+1</sub> → (H, …, h)<sub>⌊(N+<sup>N</sub>/<sub>2</sub>+1)/2⌋</sub>
 
-After all mutations, the dimension of the system will stably be [(N+N/2+1)/2] and, in the longest mutation scenario, will enter the life cycle of N → [(N+N/2+1)/2]
+After all mutations, the dimension of the system will stably be ⌊(N+<sup>N</sup>/<sub>2</sub>+1)/2⌋ and, in the longest mutation scenario, will enter the life cycle of N → ⌊(N+<sup>N</sup>/<sub>2</sub>+1)/2⌋
 
 We will prove that the recursive function converges.
 
-N = [<sup>N+<sup>N</sup>/<sub>2</sub>+1</sup>/<sub>2</sub>]
+N = ⌊(N+<sup>N</sup>/<sub>2</sub>+1)/2⌋
 
 Proof using the deviation from the fixed point method. The stationary point is L = 2.
 
 Let’s consider the difference D<sub>i</sub> = N<sub>i</sub> – 2.
 
-N<sub>i+1</sub> – 2 = ⌊(3N<sub>i</sub> + 2) / 4⌋ – 2 = [(3N<sub>i</sub> + 2 – 8) / 4] = [(3N<sub>i</sub> – 6) / 4] = [3(N<sub>i</sub> – 2) / 4] = [3D<sub>i</sub> / 4]
+N<sub>i+1</sub> – 2 = ⌊(3N<sub>i</sub> + 2) / 4⌋ – 2 = ⌊(3N<sub>i</sub> + 2 – 8) / 4⌋ = ⌊(3N<sub>i</sub> – 6) / 4⌋ = ⌊3(N<sub>i</sub> – 2) / 4⌋ = ⌊3D<sub>i</sub> / 4⌋
 
-D<sub>i+1</sub> = [3D<sub>i</sub> / 4], D<sub>i</sub> > 0 => D<sub>i+1</sub> < D<sub>i</sub>
+D<sub>i+1</sub> = ⌊3D<sub>i</sub> / 4⌋, D<sub>i</sub> > 0 => D<sub>i+1</sub> < D<sub>i</sub> Q.E.D.
 
 # The Collatz Conjecture
 The Collatz Conjecture states that if you take any positive integer n and apply the following rules repeatedly, you will eventually reach the number 1.
@@ -111,7 +111,11 @@ If n is even, divide it by 2
 
 If n is odd, multiply it by 3 and add 1
 
+# The Harutyunyan Conjecture
 Let us draw an analogy between numbers and Harut-systems.
 
-# The Harutyunyan Conjecture
+2-decomposable stable Harut-system represents a number that is a multiple of 4.
+
+Harut-mutation represents the 3x+1 function
+
 **Conjecture**: the Collatz Conjecture degenerates if its sequence eventually reaches any odd number n where n – 1 is a multiple of 4 or even enough for the sequence to eventually reach a multiple of 4.
