@@ -92,7 +92,7 @@ After all mutations, the dimension of the system will stably be [(N+N/2+1)/2] an
 
 We will prove that the recursive function converges.
 
-N = [(N+<sup>N</sup>/<sub>2</sub>+1)/2]
+N = [<sup>N+<sup>N</sup>/<sub>2</sub>+1</sup>/<sub>2</sub>]
 
 Proof using the deviation from the fixed point method. The stationary point is L = 2.
 
