@@ -125,11 +125,14 @@ If n is even, divide it by 2
 
 If n is odd, multiply it by 3 and add 1
 
-# The Harutyunyan Conjecture
 Let us draw an analogy between numbers and Harut-systems.
 
-2-decomposable stable Harut-system represents a number that is a multiple of 4.
+The (H, …, h)<sub>2n</sub> system represents a number A, such that A mod 4 = 1.
+
+The (H, …, h)<sub>4n+1</sub> system represents a number B, such that B mod 4 = 2.
+
+The two divisions in a row indicate that the degradation actually begins with a number C, such that C mod 4 = 0.
 
 Harut-mutation represents the 3x+1 function
 
-**Conjecture**: the Collatz Conjecture degenerates if its sequence eventually reaches any odd number n where n – 1 is a multiple of 4 or even enough for the sequence to eventually reach a multiple of 4.
+For all numbers where the remainder modulo 4 is 0, 1 or 2, the Collatz Conjecture is verified.
