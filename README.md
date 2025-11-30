@@ -135,4 +135,18 @@ The two divisions in a row indicate that the degradation actually begins with a 
 
 Harut-mutation represents the 3x+1 function
 
-For all numbers where the remainder modulo 4 is 0, 1 or 2, the Collatz Conjecture is verified.
+Thus, for all numbers where the remainder modulo 4 is 0, 1 or 2, the Collatz Conjecture is verified.
+
+Let us prove that for any number D such that D mod 4 = 3, the Collatz Conjecture also holds.
+
+D mod 4 = 3 => D = 4k + 3
+
+4k + 3 is an odd number => C(D) = 3(4k + 3) + 1 = 12k + 10
+
+(12k + 10) mod 4 = (12k mod 4) + (10 mod 4) = 10 mod 4 = (8 + 2) mod 4 = 2 mod 4 = 2
+
+Thus, any number D such that D mod 4 = 3 will lead to a number E such that E mod 4 = 2.
+
+The hypothesis for such numbers E has already been proven.
+
+Q.E.D.
