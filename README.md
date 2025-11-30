@@ -102,6 +102,20 @@ N<sub>i+1</sub> – 2 = ⌊(3N<sub>i</sub> + 2) / 4⌋ – 2 = ⌊(3N<sub>i</sub
 
 D<sub>i+1</sub> = ⌊3D<sub>i</sub> / 4⌋, D<sub>i</sub> > 0 => D<sub>i+1</sub> < D<sub>i</sub> Q.E.D.
 
+Thus, the Harut-mutation leads to the degradation of the system, starting from <sup>2</sup>(H, …, h)<sub>N</sub>.
+
+Now let us go backward from this system in the life cycle and see what leads to it.
+
+Initially, the system is unstable, which means it was formed as a result of division.
+
+<sup>2</sup>(H, …, h)<sub>N</sub> = (H, …, h)<sub>2n</sub> <= (H, …, )<sub>4n</sub> (H) = (H, ...)<sub>4n+1</sub>
+
+It is impossible to form (H, ...)<sub>4n+1</sub> through stabilization, which means it was also formed as a result of division.
+
+(H, ...)<sub>4n+1</sub> <= (H, ...)<sub>8n+2</sub>
+
+Thus, two divisions occurred in a row before the initial system from which the degradation begins.
+
 # The Collatz Conjecture
 The Collatz Conjecture states that if you take any positive integer n and apply the following rules repeatedly, you will eventually reach the number 1.
 
