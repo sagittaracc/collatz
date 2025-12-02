@@ -127,9 +127,9 @@ If n is odd, multiply it by 3 and add 1
 
 Let us draw an analogy between numbers and Harut-systems.
 
-The (H, …, h)<sub>2n</sub> system represents a number A, such that A mod 4 = 1.
+The (H, …)<sub>4n+1</sub> system represents a number A, such that A mod 4 = 1.
 
-The (H, …, h)<sub>4n+1</sub> system represents a number B, such that B mod 4 = 2.
+The (H, …)<sub>8n+2</sub> system represents a number B, such that B mod 4 = 2.
 
 The two divisions in a row indicate that the degradation actually begins with a number C, such that C mod 4 = 0.
 
