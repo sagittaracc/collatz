@@ -56,7 +56,7 @@ Any decomposable stable Harut-system is denoted by the letter S (e.g. <sup>2</su
 # Harut-mutation
 We will refer to a mutation of the form 3 x (<sup>2</sup>S, h) + h as a Harut-mutation.
 
-**Theorem**: The Harut-mutation has a stabilizing effect on the Harut-system; however, if applied recursively to a system that exists according to its own fundamental life cycle rules, the system degrades. This means that, as a result of its division, all stable pairs will ultimately exist outside the framework of the system, becoming self-contained.
+**Theorem**: The Harut-mutation has a stabilizing effect on the Harut-system; however, if applied recursively to a system that exists according to its own fundamental life cycle rules, the system degrades. This means that, as a result of its division, all stable Harut-couples will ultimately exist outside the framework of the system, becoming self-contained.
 
 **Proof**: We will describe the chain of system stabilization and division in accordance with the fundamental principles of Harut-system lifecycle.
 
