@@ -56,11 +56,13 @@ Any decomposable stable Harut-system is denoted by the letter S (e.g. <sup>2</su
 # Harut-mutation
 We will refer to a mutation of the form 3 x (<sup>2</sup>S, h) + h as a Harut-mutation.
 
-**Theorem**: The Harut-mutation is stabilizing; however, if applied recursively to a Harut-system requiring stabilization, the system degenerates.
+**Theorem**: The Harut-mutation has a stabilizing effect on the Harut-system; however, if applied recursively to a system that exists according to its own fundamental life cycle rules, the system degrades. This means that, as a result of its division, all stable pairs will ultimately exist outside the framework of the system, becoming self-contained.
 
 **Proof**: We will describe the chain of system stabilization and division in accordance with the fundamental principles of Harut-system lifecycle.
 
 <sup>2</sup>(H, …, h)<sub>N</sub>
+
+→ (H, …, h)<sub>2N</sub>
 
 → (stabilization) 3 x <sup>2</sup>(H, …, h)<sub>N</sub> + (h)
 
@@ -127,7 +129,7 @@ If n is odd, multiply it by 3 and add 1
 
 Let us draw an analogy between numbers and Harut-systems.
 
-The (H, …)<sub>4n+1</sub> system represents a number A, such that A mod 4 = 1.
+The (H, …, h)<sub>2N</sub> system represents a number A, such that A mod 4 = 1.
 
 The (H, …)<sub>8n+2</sub> system represents a number B, such that B mod 4 = 2.
 
