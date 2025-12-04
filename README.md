@@ -62,8 +62,6 @@ We will refer to a mutation of the form 3 x (<sup>2</sup>S, h) + h as a Harut-mu
 
 <sup>2</sup>(H, …, h)<sub>N</sub>
 
-→ (H, …, h)<sub>2N</sub>
-
 → (stabilization) 3 x <sup>2</sup>(H, …, h)<sub>N</sub> + (h)
 
 → <sup>2</sup>(H, …, h)<sub>N</sub> + <sup>2</sup>(H, …, h)<sub>N</sub> + <sup>2</sup>(H, …, h)<sub>N</sub> + (h)
@@ -128,6 +126,8 @@ If n is even, divide it by 2
 If n is odd, multiply it by 3 and add 1
 
 Let us draw an analogy between numbers and Harut-systems.
+
+<sup>2</sup>(H, …, h)<sub>N</sub> = (H, …, h)<sub>2N</sub>
 
 The (H, …, h)<sub>2N</sub> system represents a number A, such that A mod 4 = 1.
 
