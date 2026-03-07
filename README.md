@@ -8,7 +8,7 @@ x =
 x / 6 & \text{if } x \equiv 0 \pmod{6} \\
 x / 4 & \text{if } x \equiv 0 \pmod{4} \\
 x / 2 & \text{if } x \equiv 0 \pmod{2} \\
-7x + 1 & \text{otherwise}
+7x + 1 & \text{if } x \text{ is odd}
 \end{cases}
 $$
 
