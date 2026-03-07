@@ -7,3 +7,17 @@ Harutyunyan conjecture states that for any positive integer, the sequence genera
 will always reach the number 1.
 
 This is a generalization of the [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture).
+
+## Example
+I applied the 5x + 1 algorithm to a range of integers from 1 to 1,000,000. The transformation rules are as follows:
+
+x → 5x + 1 (for odd x)
+
+x → x / 4 (if x ≡ 0 mod 4)
+
+x → x / 2 (if x ≡ 2 mod 4 or simply for other even x)
+
+
+## Tests
+
+`node index.js`
