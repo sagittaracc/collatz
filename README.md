@@ -5,11 +5,15 @@ Harutyunyan conjecture states that for any positive integer, the sequence genera
 $$
 x = 
 \begin{cases} 
+kx + 1 & \text{if } k, x \text{ is odd} \\
+x / (k - 1) & \text{if } x \equiv 0 \pmod{k - 1} \\
+x / (k - 3) & \text{if } x \equiv 0 \pmod{k - 3} \\
+... \\
 x / 6 & \text{if } x \equiv 0 \pmod{6} \\
 x / 4 & \text{if } x \equiv 0 \pmod{4} \\
 x / 2 & \text{if } x \equiv 0 \pmod{2} \\
-7x + 1 & \text{if } x \text{ is odd}
 \end{cases}
 $$
 
 will always reach the number 1.
+
