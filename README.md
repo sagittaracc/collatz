@@ -17,3 +17,4 @@ $$
 
 will always reach the number 1.
 
+This is a generalization of the [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture).
