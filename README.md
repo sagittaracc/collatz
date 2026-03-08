@@ -4,7 +4,7 @@ Harutyunyan conjecture states that for any positive integer, the sequence genera
 
 <img width="346" height="194" alt="Screenshot from 2026-03-07 20-01-43" src="https://github.com/user-attachments/assets/8fa71325-b739-4ade-985e-c4b8744b644b" />
 
-will always reach the number 1.
+will always reach the number 1. Rules should be applied in a top-down priority.
 
 This is a generalization of the [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture).
 
@@ -15,8 +15,9 @@ x → 5x + 1 (for odd x)
 
 x → x / 4 (if x ≡ 0 mod 4)
 
-x → x / 2 (if x ≡ 2 mod 4 or simply for other even x)
+x → x / 2 (if x ≡ 0 mod 2)
 
+Rules should be applied in a top-down priority.
 
 ## Tests
 
