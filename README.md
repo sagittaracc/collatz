@@ -4,7 +4,7 @@ Harutyunyan conjecture states that for any positive integer, the sequence genera
 
 <img width="346" height="194" alt="Screenshot from 2026-03-07 20-01-43" src="https://github.com/user-attachments/assets/8fa71325-b739-4ade-985e-c4b8744b644b" />
 
-will always reach the number 1. Rules should be applied in a top-down priority.
+will always reach the number 1. The appropriate transformation rule is selected per cycle in a top-down priority.
 
 This is a generalization of the [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture).
 
@@ -17,7 +17,7 @@ x → x / 4 (if x ≡ 0 mod 4)
 
 x → x / 2 (if x ≡ 0 mod 2)
 
-Rules should be applied in a top-down priority.
+The appropriate transformation rule is selected per cycle in a top-down priority.
 
 ## Tests
 
