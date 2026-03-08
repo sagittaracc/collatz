@@ -19,6 +19,9 @@ x → x / 2 (if x ≡ 0 mod 2)
 
 The appropriate transformation rule is selected per cycle in a top-down priority.
 
+## Mathematical Model
+An even number is treated as one type of entity, while an odd number is another. These can be visualized as two different colored circles. The system containing these entities tends to form pairs based on the principle of "even with even" and "odd with odd." Such a pair results in an even number and is considered stable. Within this model, the fact that all entities eventually form pairs is analogous to the sequence converging to 1.
+
 ## Tests
 
 `node index.js`
