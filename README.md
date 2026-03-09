@@ -6,7 +6,7 @@
 
 will always reach the number 1. The appropriate transformation rule is selected per cycle in a top-down priority.
 
-**Conjecture 2**: It is not necessary to partition the system, as it is sufficient to prove that the function `kx + 1` eventually results in a power of two.
+**Conjecture 2**: It is not necessary to perform the splitting, as it is sufficient to prove that the function `kx + 1` eventually results in a power of two.
 
 This is a generalization of the [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture).
 
