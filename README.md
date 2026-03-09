@@ -147,39 +147,7 @@ when it breaks at 13 on 9x + 1 it goes in a loop:
 26n
 13n
 
-k = 5, 7, 25, 29, 41
-
-k - 1 = 4, 6, 24, 28, 40
-
-4 = 2 * 2
-
-6 = 2 * 3
-
-24 = 2 * 2 * 2 * 3
-
-28 = 2 * 2 * 7
-
-40 = 2 * 2 * 2 * 5
-
-vs
-
-k = 9, 11, 13, 15, 17, 19, 21
-
-k - 1 = 8, 10, 12, 14, 16, 18, 20
-
-8 = 2 * 2 * 2
-
-10 = 2 * 5
-
-12 = 2 * 2 * 3
-
-14 = 2 * 7
-
-16 = 2 * 2 * 2 * 2
-
-18 = 2 * 3 * 3
-
-20 = 2 * 2 * 5
+Web need to figure out what kind of cycle it is and why algoritms, that pass, don't have it
 
 ## Mathematical Model
 An even number is treated as one type of entity, while an odd number is another. These can be visualized as two different colored circles. The system containing these entities tends to form pairs based on the principle of "even with even" and "odd with odd." Such a pair results in an even number and is considered stable. Within this model, the fact that all entities eventually form pairs is analogous to the sequence converging to 1.
