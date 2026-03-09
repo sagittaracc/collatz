@@ -1,4 +1,4 @@
-const k = 41n;
+const k = 71n;
 
 const make_even = x => k * x + 1n;
 const is_even = (x) => x % 2n === 0n;
@@ -14,10 +14,10 @@ const harut = (x) => {
     return make_even(x);
 }
 
-const iterationLimit = 1e5;
+const iterationLimit = 1000000;
 
-const startX = BigInt(2);
-const endX = BigInt(1000000);
+const startX = BigInt('2');
+const endX = BigInt('1000000');
 
 for (let x0 = startX; x0 <= endX; x0++) {
     let cx0 = x0;

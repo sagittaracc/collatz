@@ -59,6 +59,36 @@ I applied these algorithms to a range of integers from 1 to 1,000,000
 
 41x + 1: pass
 
+43x + 1: break at 174569
+
+45x + 1: break at 53
+
+47x + 1: break at 859
+
+49x + 1: break at 223
+
+51x + 1: break at 67
+
+53x + 1: break at 19559
+
+55x + 1: break at 59
+
+57x + 1: break at 67
+
+59x + 1: break at 73
+
+61x + 1: break at 97
+
+63x + 1: break at 71
+
+65x + 1: break at 239
+
+67x + 1: break at 181
+
+69x + 1: break at 109
+
+71x + 1: break at 306511
+
 ## Mathematical Model
 An even number is treated as one type of entity, while an odd number is another. These can be visualized as two different colored circles. The system containing these entities tends to form pairs based on the principle of "even with even" and "odd with odd." Such a pair results in an even number and is considered stable. Within this model, the fact that all entities eventually form pairs is analogous to the sequence converging to 1.
 
