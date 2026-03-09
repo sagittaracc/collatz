@@ -20,7 +20,8 @@ This is a generalization of the [Collatz Conjecture](https://en.wikipedia.org/wi
 
 ## Example
 I applied the 5x + 1 and 7x + 1 algorithms to a range of integers from 1 to 1,000,000
-It broke for the 9x + 1 algoritms for the number 13
+
+It broke for the 9x + 1 algoritm for the number 13
 
 ## Mathematical Model
 An even number is treated as one type of entity, while an odd number is another. These can be visualized as two different colored circles. The system containing these entities tends to form pairs based on the principle of "even with even" and "odd with odd." Such a pair results in an even number and is considered stable. Within this model, the fact that all entities eventually form pairs is analogous to the sequence converging to 1.
