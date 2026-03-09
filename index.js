@@ -1,4 +1,4 @@
-const k = 5n;
+const k = 9n;
 
 const make_even = x => k * x + 1n;
 const is_even = (x) => x % 2n === 0n;
@@ -15,7 +15,7 @@ const harut = (x) => {
     return make_even(x);
 }
 
-const iterationLimit = 1e6;
+const iterationLimit = 1e3;
 
 const startX = BigInt(2);
 const endX = BigInt(1e6);
@@ -32,11 +32,12 @@ for (let x0 = startX; x0 <= endX; x0++) {
     
         if (cx0 === 1n) {
         // if (isPowerOfTwo(cx0)) {
-            console.log('Reached the number 1 for ', x0.toString(), ' count', iterationCount);
+            // console.log('Reached the number 1 for ', x0.toString(), ' count', iterationCount);
             break;
         }
     
         cx0 = harut(cx0);
+        // console.log(cx0);
         // cx0 = make_even(cx0);
     
         iterationCount++;
