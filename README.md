@@ -19,9 +19,45 @@ will always reach the number 1. The appropriate transformation rule is selected 
 This is a generalization of the [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture).
 
 ## Example
-I applied the 5x + 1 and 7x + 1 algorithms to a range of integers from 1 to 1,000,000
+I applied these algorithms to a range of integers from 1 to 1,000,000
 
-It broke for the 9x + 1 algoritm for the number 13
+5x + 1: pass
+
+7x + 1: pass
+
+9x + 1: break at 13
+
+11x + 1: break at 17
+
+13x + 1: break at 19
+
+15x + 1: break at 23
+
+17x + 1: break at 43
+
+19x + 1: break at 46063
+
+21x + 1: break at 29
+
+23x + 1: break at 179
+
+25x + 1: pass
+
+27x + 1: break at 433
+
+29x + 1: pass
+
+31x + 1: break at 67
+
+33x + 1: break at 37
+
+35x + 1: break at 43
+
+37x + 1: break at 2173
+
+39x + 1: break at 127
+
+41x + 1: pass
 
 ## Mathematical Model
 An even number is treated as one type of entity, while an odd number is another. These can be visualized as two different colored circles. The system containing these entities tends to form pairs based on the principle of "even with even" and "odd with odd." Such a pair results in an even number and is considered stable. Within this model, the fact that all entities eventually form pairs is analogous to the sequence converging to 1.
