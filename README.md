@@ -147,7 +147,65 @@ when it breaks at 13 on 9x + 1 it goes in a loop:
 26n
 13n
 
-Web need to figure out what kind of cycle it is and why algoritms, that pass, don't have it
+Next it breaks at 19 and goes in a loop:
+
+19n
+172n
+43n
+388n
+97n
+874n
+437n
+3934n
+562n
+281n
+2530n
+506n
+253n
+2278n
+1139n
+10252n
+2563n
+23068n
+5767n
+51904n
+6488n
+811n
+7300n
+1460n
+292n
+73n
+658n
+94n
+47n
+424n
+53n
+478n
+239n
+2152n
+269n
+2422n
+346n
+173n
+1558n
+779n
+7012n
+1753n
+15778n
+2254n
+322n
+46n
+23n
+208n
+26n
+13n
+118n
+59n
+532n
+76n
+19n
+
+Web need to figure out what kind of loop it is and why algoritms, that pass, don't have it
 
 ## Mathematical Model
 An even number is treated as one type of entity, while an odd number is another. These can be visualized as two different colored circles. The system containing these entities tends to form pairs based on the principle of "even with even" and "odd with odd." Such a pair results in an even number and is considered stable. Within this model, the fact that all entities eventually form pairs is analogous to the sequence converging to 1.
