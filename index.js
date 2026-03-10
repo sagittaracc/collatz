@@ -1,4 +1,4 @@
-const k = 71n;
+const k = 25n;
 
 const make_even = x => k * x + 1n;
 const is_even = (x) => x % 2n === 0n;
@@ -16,8 +16,8 @@ const harut = (x) => {
 
 const iterationLimit = 1000000;
 
-const startX = BigInt('2');
-const endX = BigInt('1000000');
+const startX = BigInt('2147483647');
+const endX = BigInt('2147483647');
 
 for (let x0 = startX; x0 <= endX; x0++) {
     let cx0 = x0;
@@ -36,6 +36,7 @@ for (let x0 = startX; x0 <= endX; x0++) {
         }
     
         cx0 = harut(cx0);
+        console.log(cx0);
     
         iterationCount++;
     }

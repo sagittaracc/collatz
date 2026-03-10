@@ -207,6 +207,8 @@ Next it breaks at 19 and goes in a loop:
 
 Web need to figure out what kind of loop it is and why algoritms, that pass, don't have it
 
+The sequence enters a loop at the prime number.
+
 ## Mathematical Model
 An even number is treated as one type of entity, while an odd number is another. These can be visualized as two different colored circles. The system containing these entities tends to form pairs based on the principle of "even with even" and "odd with odd." Such a pair results in an even number and is considered stable. Within this model, the fact that all entities eventually form pairs is analogous to the sequence converging to 1.
 
