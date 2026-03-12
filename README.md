@@ -21,9 +21,11 @@ This is a generalization of the [Collatz Conjecture](https://en.wikipedia.org/wi
 ## Example
 I applied these algorithms to a range of integers from 1 to 1,000,000
 
-5x + 1: pass
+3x + 1: pass (possibly breaks, cuz 9, 27, ... break)
 
-7x + 1: pass
+5x + 1: pass (possibly never breaks, 25, 625 don't break)
+
+7x + 1: pass (possibly breaks)
 
 9x + 1: break at 13
 
@@ -57,7 +59,7 @@ I applied these algorithms to a range of integers from 1 to 1,000,000
 
 39x + 1: break at 127
 
-41x + 1: pass
+41x + 1: pass (possibly breaks)
 
 43x + 1: break at 174569
 
@@ -88,6 +90,26 @@ I applied these algorithms to a range of integers from 1 to 1,000,000
 69x + 1: break at 109
 
 71x + 1: break at 306511
+
+...
+
+125x + 1: break at 359
+
+...
+
+625x + 1: pass (25 * 25, 25 also pass)
+
+...
+
+841x + 1: pass (29 * 29, 29 also pass)
+
+...
+
+1681x + 1: break at 15749 (41 * 41, 41 pass) (41 possibly breaks too)
+
+...
+
+24389x + 1: possibly pass (29 * 29 * 29, 29 pass)
 
 when it breaks at 13 on 9x + 1 it goes in a loop:
 
