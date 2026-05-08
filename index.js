@@ -18,7 +18,7 @@ const harut = (x) => {
     let m = k - 1n;
     while (m >= 2n) {
         if (x % m === 0n) {
-            console.log(printStars(m))
+            // console.log(printStars(m))
             return x / m;
         }
 
@@ -33,8 +33,8 @@ const printStars = (n) => '*'.repeat(Number(n));
 
 const iterationLimit = 100;
 
-const startX = BigInt('13');
-const endX = BigInt('13');
+const startX = BigInt('-13');
+const endX = BigInt('-13');
 
 for (let x0 = startX; x0 <= endX; x0++) {
     // if (!is_prime(x0)) continue;
@@ -55,9 +55,9 @@ for (let x0 = startX; x0 <= endX; x0++) {
         // }
 
         cx0 = harut(cx0);
-        // console.log(cx0);
+        console.log(cx0);
 
-        if (cx0 === 13n) {
+        if (cx0 === startX) {
             break;
         }
 

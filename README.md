@@ -34,6 +34,10 @@ E.g 9x + 1 loop:
 → 2563n → 23068n → 5767n → 51904n → 6488n → 811n → 7300n → 1460n → 292n → 73n → 658n → 94n → 47n → 424n → 53n → 478n → 239n → 2152n → 269n
 → 2422n → 346n → 173n → 1558n → 779n → 7012n → 1753n → 15778n → 2254n → 322n → 46n → 23n → 208n → 26n → 13n
 
+Same thing occurs on the set of negative numbers, but the loops are much shorter
+
+-13n → -116n → -29n → -260n → -52n → -13n
+
 ## Harutyunyan conjecture
 I suppose, none of the sequences grow to infinity; some simply have one basic loop, while others have several wider ones.
 
