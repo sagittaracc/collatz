@@ -234,6 +234,9 @@ The sequence enters a loop at the prime number.
 ## Mathematical Model
 An even number is treated as one type of entity, while an odd number is another. These can be visualized as two different colored circles. The system containing these entities tends to form pairs based on the principle of "even with even" and "odd with odd." Such a pair results in an even number and is considered stable. Within this model, the fact that all entities eventually form pairs is analogous to the sequence converging to 1.
 
+## Conclusion
+In principle, it is no longer necessary to say that the sequence converges to 1. Instead, one can argue that every sequence eventually enters a specific cycle. For some sequences, this is the simple 1-4-2-1 loop; for others, the cycle might be more complex. A cycle always originates from a prime number. This suggests that any chaos inherently strives for stabilization. As a result of this stabilization, the system enters an infinite cycle, a so-called "black hole", from which it can no longer escape.
+
 ## 5x + 1
 Уточненный расчет «полного шага»
 
