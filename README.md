@@ -237,6 +237,16 @@ An even number is treated as one type of entity, while an odd number is another.
 ## Conclusion
 In principle, it is no longer necessary to say that the sequence converges to 1. Instead, one can argue that every sequence eventually enters a specific cycle. For some sequences, this is the simple 1-4-2-1 loop; for others, the cycle might be more complex. A cycle always originates from a prime number. This suggests that any chaos inherently strives for stabilization. As a result of this stabilization, the system enters an infinite cycle, a so-called "black hole", from which it can no longer escape.
 
+Harutyunyan conjecture generates infinite loops within chaos. One loop always exists 1 → k + 1 → 2 →1 for any odd k.
+
+Some sequences are conjectured to have only this one loop, while others may have wider loops.
+
+E.g 9x + 1 loop:
+
+13n → 118n → 59n → 532n → 76n → 19n → 172n → 43n → 388n → 97n → 874n → 437n → 3934n → 562n → 281n → 2530n → 506n → 253n → 2278n → 1139n → 10252n
+→ 2563n → 23068n → 5767n → 51904n → 6488n → 811n → 7300n → 1460n → 292n → 73n → 658n → 94n → 47n → 424n → 53n → 478n → 239n → 2152n → 269n
+→ 2422n → 346n → 173n → 1558n → 779n → 7012n → 1753n → 15778n → 2254n → 322n → 46n → 23n → 208n → 26n → 13n
+
 ## 5x + 1
 Уточненный расчет «полного шага»
 

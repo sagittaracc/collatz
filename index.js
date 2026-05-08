@@ -1,4 +1,4 @@
-const k = 16807n;
+const k = 27n;
 
 const make_even = x => k * x + 1n;
 const is_even = (x) => x % 2n === 0n;
@@ -24,13 +24,13 @@ const harut = (x) => {
     return make_even(x);
 }
 
-const iterationLimit = 1000000;
+const iterationLimit = 100;
 
-const startX = BigInt('20549');
-const endX = BigInt('1000000');
+const startX = BigInt('1');
+const endX = BigInt('1');
 
 for (let x0 = startX; x0 <= endX; x0++) {
-    if (!is_prime(x0)) continue;
+    // if (!is_prime(x0)) continue;
 
     let cx0 = x0;
     let iterationCount = 0;
@@ -42,12 +42,13 @@ for (let x0 = startX; x0 <= endX; x0++) {
             // break;
         }
 
-        if (cx0 === 1n) {
-            console.log('Reached the number 1 for ', x0.toString(), ' count', iterationCount);
-            break;
-        }
+        // if (cx0 === 1n) {
+        //     console.log('Reached the number 1 for ', x0.toString(), ' count', iterationCount);
+        //     break;
+        // }
 
         cx0 = harut(cx0);
+        console.log(cx0);
 
         iterationCount++;
     }
