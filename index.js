@@ -1,4 +1,4 @@
-const k = 9n;
+const k = 11n;
 
 const make_even = x => k * x + 1n;
 const is_even = (x) => x % 2n === 0n;
@@ -33,8 +33,8 @@ const printStars = (n) => '*'.repeat(Number(n));
 
 const iterationLimit = 100;
 
-const startX = BigInt('-13');
-const endX = BigInt('-13');
+const startX = BigInt('13');
+const endX = BigInt('13');
 
 for (let x0 = startX; x0 <= endX; x0++) {
     // if (!is_prime(x0)) continue;

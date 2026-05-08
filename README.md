@@ -250,6 +250,18 @@ Next it breaks at 19 and goes in a loop:
 76n
 19n
 
+From a mathematical and statistical standpoint, these sequences are identical. Since they represent the same cycle starting from different positions, their graphs will show the same 'wave' shifted in phase.
+
+We can see that the cycles overlap, as one transforms into the other. 13n → 118n → 59n → 532n → 76n → 19n
+
+Закон Бенфорда: Такие последовательности обычно подчиняются закону первой цифры (единица встречается чаще всего).
+
+Принцип поиска циклов
+
+Алгоритм «Черепахи и Зайца» (Флойда)
+
+Запускаете два указателя: «Черепаха» делает 1 шаг, а «Заяц» — 2 шага.Если они когда-нибудь сравняются, значит, они внутри цикла.
+
 Web need to figure out what kind of loop it is and why algoritms, that pass, don't have it
 
 The sequence enters a loop at the prime number.
