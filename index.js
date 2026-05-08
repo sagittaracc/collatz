@@ -1,4 +1,4 @@
-const k = 27n;
+const k = 9n;
 
 const make_even = x => k * x + 1n;
 const is_even = (x) => x % 2n === 0n;
@@ -17,17 +17,24 @@ const is_prime = (x) => {
 const harut = (x) => {
     let m = k - 1n;
     while (m >= 2n) {
-        if (x % m === 0n) return x / m;
+        if (x % m === 0n) {
+            console.log(printStars(m))
+            return x / m;
+        }
+
         m -= 1n;
     }
 
+    // console.log(printStars(k))
     return make_even(x);
 }
 
+const printStars = (n) => '*'.repeat(Number(n));
+
 const iterationLimit = 100;
 
-const startX = BigInt('1');
-const endX = BigInt('1');
+const startX = BigInt('13');
+const endX = BigInt('13');
 
 for (let x0 = startX; x0 <= endX; x0++) {
     // if (!is_prime(x0)) continue;
@@ -48,7 +55,11 @@ for (let x0 = startX; x0 <= endX; x0++) {
         // }
 
         cx0 = harut(cx0);
-        console.log(cx0);
+        // console.log(cx0);
+
+        if (cx0 === 13n) {
+            break;
+        }
 
         iterationCount++;
     }
